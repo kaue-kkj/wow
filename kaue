@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Site informativo sobre diversos tópicos">
+    <title>Site Informativo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo ao Site Informativo</h1>
+        <p>Aqui você encontra informações sobre diversos tópicos de interesse. Navegue pelas seções abaixo para saber mais!</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre</h2>
+        <p>Este site foi criado para compartilhar informações sobre uma variedade de tópicos. Nosso objetivo é fornecer conteúdo relevante e de qualidade.</p>
+    </section>
+
+    <section id="servicos">
+        <h2>Serviços</h2>
+        <ul>
+            <li>Consultoria online</li>
+            <li>Redação de conteúdo</li>
+            <li>Design de websites</li>
+        </ul>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Se você tiver alguma dúvida, entre em contato conosco através do formulário abaixo.</p>
+        <form action="#" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Site Informativo. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
